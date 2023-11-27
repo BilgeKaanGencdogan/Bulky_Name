@@ -20,18 +20,18 @@ namespace Bulky.DataAccess.Repository
 
             if (objFromDb != null)
             {
-                obj.Title = objFromDb.Title;
-                obj.Description = objFromDb.Description;
-                obj.ISBN = objFromDb.ISBN;
-                obj.Price = objFromDb.Price;
-                obj.ListPrice = objFromDb.ListPrice;
-                obj.Price100 = objFromDb.Price100;
-                obj.CategoryId = objFromDb.CategoryId;
-                obj.Author = objFromDb.Author;
-                obj.Price50 = objFromDb.Price50;
+                objFromDb.Title = obj.Title;
+                objFromDb.Description = obj.Description;
+                objFromDb.ISBN = obj.ISBN;
+                objFromDb.Price = obj.Price;
+                objFromDb.ListPrice = obj.ListPrice;
+                objFromDb.Price100 = obj.Price100;
+                objFromDb.CategoryId = obj.CategoryId;
+                objFromDb.Author = obj.Author;
+                objFromDb.Price50 = obj.Price50;
                 if (obj.ImageUrl != null)
                 {
-                    obj.ImageUrl = objFromDb.ImageUrl;
+                    objFromDb.ImageUrl = obj.ImageUrl;
                 }
 
 
